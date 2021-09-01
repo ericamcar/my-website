@@ -1,7 +1,2 @@
-## Getting Started
+## My webpage
 
-First, run the development server:
-
-```bash
-npm run dev
-```
