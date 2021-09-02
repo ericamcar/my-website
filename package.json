@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"./**/*.{js,jsx,scss}\"",
+    "compile:sass": "node-sass styles/sass/main.scss styles/globals.css -w"
+  },
+  "dependencies": {
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.19",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "node-sass": "^6.0.1",
+    "prettier": "^2.3.2",
+    "typescript": "4.4.2"
+  }
+}

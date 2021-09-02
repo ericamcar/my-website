@@ -1,0 +1,37 @@
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-image: linear-gradient(
+    to right,
+    darken($color-primary, 5%),
+    lighten($color-primary, 5%)
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  position: relative;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.2rem);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  background-color: $color-tertiary;
+  padding: 1rem 3em;
+  color: $color-dark;
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &-image {
+    font-size: 5rem;
+  }
+
+  &-text {
+    margin-left: 1rem;
+    font-size: 3rem;
+    line-height: 2.8rem;
+  }
+}

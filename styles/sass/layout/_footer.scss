@@ -1,0 +1,17 @@
+.footer {
+  background-image: linear-gradient(
+    to right,
+    darken($color-primary, 2%),
+    lighten($color-primary, 5%)
+  );
+  color: $color-dark;
+  width: 100%;
+  padding: 0.8rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.2rem);
+
+  &-text {
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1.4rem;
+  }
+}

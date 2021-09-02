@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica,
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $color-dark;
+}
+
+.heading-primary {
+  font-size: 3rem;
+}
+
+.heading-secondary {
+  font-size: 2.5rem;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+}
+
+.heading-quaternary {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}

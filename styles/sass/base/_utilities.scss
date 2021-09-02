@@ -1,0 +1,44 @@
+// Margin and padding
+$spaces: (1, 2, 3, 4, 5);
+
+@each $space in $spaces {
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  .mx-#{$space} {
+    margin: 0 #{$space}rem;
+  }
+
+  .p-#{$space} {
+    padding: #{$space}rem;
+  }
+
+  .py-#{$space} {
+    padding: #{$space}rem 0;
+  }
+
+  .p-#{$space} {
+    padding: 0 #{$space}rem;
+  }
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
