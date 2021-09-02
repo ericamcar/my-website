@@ -399,7 +399,8 @@ body {
 
 .icon {
   color: #4ecdc4;
-  font-size: 4rem; }
+  font-size: 4rem;
+  margin-left: 1rem; }
   .icon:hover {
     color: #ff6b6b; }
 
