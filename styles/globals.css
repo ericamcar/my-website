@@ -211,11 +211,6 @@ body {
   max-width: 180rem;
   margin: auto;
   background-color: #f7fff7; }
-  @media only screen and (max-width: 75em) {
-    .container {
-      margin: 0;
-      max-width: 100%;
-      width: 100%; } }
 
 .content {
   flex-grow: 1;
@@ -308,7 +303,7 @@ body {
 .navigation-button, .navigation-icon, .navigation-checkbox {
   display: none; }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 45em) {
   .navigation-button {
     display: block;
     height: 7rem;
