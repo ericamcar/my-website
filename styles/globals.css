@@ -26,17 +26,21 @@ body {
   color: #1a535c; }
 
 .heading-primary {
-  font-size: 3rem; }
+  font-size: 3rem;
+  color: #ff6b6b; }
 
 .heading-secondary {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  color: #ff6b6b; }
 
 .heading-tertiary {
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #4ecdc4; }
 
 .heading-quaternary {
   font-size: 1.6rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #ff6b6b; }
 
 .m-1 {
   margin: 1rem; }
@@ -368,7 +372,7 @@ body {
   justify-content: space-between; }
 
 .icon {
-  color: #1a535c;
+  color: #4ecdc4;
   margin: 1.8rem;
   font-size: 3rem; }
 
