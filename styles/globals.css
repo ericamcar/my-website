@@ -244,8 +244,6 @@ body {
   background-color: #ffe66d;
   padding: 1rem 3em;
   color: #1a535c; }
-  .logo:hover {
-    transform: scale(1.05); }
   .logo-image {
     font-size: 5rem; }
   .logo-text {
