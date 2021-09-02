@@ -1,0 +1,14 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: auto;
+  text-align: center;
+
+  &-icon {
+    font-size: 5rem;
+    margin-top: 3rem;
+  }
+}

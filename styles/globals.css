@@ -378,6 +378,18 @@ body {
   text-align: center;
   margin: 4rem auto; }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: auto;
+  text-align: center; }
+  .contact-icon {
+    font-size: 5rem;
+    margin-top: 3rem; }
+
 .cv-header {
   display: flex;
   justify-content: space-between; }
