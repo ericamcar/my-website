@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: auto;
+  text-align: center;
+
+  &-me {
+    border-radius: 50%;
+  }
+
+  .logo-image {
+    font-size: 8rem;
+  }
+}

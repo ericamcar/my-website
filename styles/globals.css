@@ -363,3 +363,16 @@ body {
     box-shadow: none; }
   .navigation-checkbox:checked ~ .navigation-nav {
     transform: translateX(-21rem); } }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: auto;
+  text-align: center; }
+  .home-me {
+    border-radius: 50%; }
+  .home .logo-image {
+    font-size: 8rem; }
