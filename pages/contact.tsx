@@ -9,7 +9,11 @@ const Contact: NextPage = () => {
         Do you have a job opportunity or want to learn more? Contact me on
         LinkedIn.
       </p>
-      <AiFillLinkedin className="contact-icon" />
+      <a href="https://www.linkedin.com/in/erica-melo-de-carvalho">
+        <div className="navigation-link-with-icon">
+          <AiFillLinkedin className="contact-icon" />
+        </div>
+      </a>
     </div>
   );
 };

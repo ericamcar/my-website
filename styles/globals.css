@@ -388,7 +388,10 @@ body {
   text-align: center; }
   .contact-icon {
     font-size: 5rem;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    color: #4ecdc4; }
+    .contact-icon:hover {
+      color: #ff6b6b; }
 
 .cv-header {
   display: flex;
@@ -396,7 +399,6 @@ body {
 
 .icon {
   color: #4ecdc4;
-  margin: 1.8rem;
   font-size: 4rem; }
   .icon:hover {
     color: #ff6b6b; }
