@@ -6,5 +6,9 @@
 .icon {
   color: $color-primary;
   margin: 1.8rem;
-  font-size: 3rem;
+  font-size: 4rem;
+
+  &:hover {
+    color: $color-secondary;
+  }
 }
