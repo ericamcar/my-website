@@ -6,7 +6,7 @@ const Contact: NextPage = () => {
     <div className="contact">
       <h1 className="heading-primary text-center">Contact</h1>
       <p className="text-center">
-        Do you have an opportunity or want to learn more? Contact me on
+        Do you have a job opportunity or want to learn more? Contact me on
         LinkedIn.
       </p>
       <AiFillLinkedin className="contact-icon" />

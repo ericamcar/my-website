@@ -9,9 +9,8 @@ const About: NextPage = () => {
         I am a Design and Manufacturing Engineering PhD candidate turned
         Software Developer. My research focuses on manufacturing strategy in
         start-ups, a subject which I also explored as a Research Intern at the
-        Knowledge Transfer Network. I am very enthusiastic and passionate about
-        tech and decided to make a career change to software development. I have
-        had experience with product design strategy and translating user
+        KTN. I am very enthusiastic and passionate about tech. I have had
+        experience with product design strategy and translating user
         requirements into specifications from my undergrad degree and my PhD, as
         well as designing solutions to problems. However, building software
         excites me because I can bring ideas to life using just my laptop and a
