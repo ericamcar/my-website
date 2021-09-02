@@ -212,7 +212,6 @@ body {
 
 .content {
   flex-grow: 1;
-  display: flex;
   margin: 2rem; }
 
 .footer {
@@ -363,6 +362,15 @@ body {
     box-shadow: none; }
   .navigation-checkbox:checked ~ .navigation-nav {
     transform: translateX(-21rem); } }
+
+.cv-header {
+  display: flex;
+  justify-content: space-between; }
+
+.icon {
+  color: #1a535c;
+  margin: 1.8rem;
+  font-size: 3rem; }
 
 .home {
   display: flex;
