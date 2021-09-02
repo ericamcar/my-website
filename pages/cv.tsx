@@ -123,7 +123,7 @@ const CV: NextPage = () => {
         </li>
         <li>
           <strong>Cultural Awareness Speaker</strong> | AIESEC Lviv | Jul 2012 –
-          Aug 201
+          Aug 2012
         </li>
       </ul>
     </>
